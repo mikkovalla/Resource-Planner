@@ -24,9 +24,8 @@ import {PropTypes} from 'prop-types'
 // The next components have their own specific stylesheets which we import
 // separately here to avoid importing from files which have required the global
 // antd styles.
-import Col from 'antd/lib/col'
-import Row from 'antd/lib/row'
-import Icon from 'antd/lib/icon'
+import { Row, Col } from 'antd';
+import Icon from '@ant-design/icons'
 import 'antd/lib/select/style/index.css'
 import 'antd/lib/grid/style/index.css'
 import Radio from 'antd/lib/radio'
@@ -309,7 +308,7 @@ class Scheduler extends Component {
         }
 
         return (
-            <table id="RBS-Scheduler-root" className="scheduler" style={{width: `${width}px`}}>
+            <table id="RBS-Scheduler-root" className="scheduler" style={{fontFamily: "sans-serif", width: `${width}px`}}>
                 <thead>
                 <tr>
                     <td colSpan="2">
