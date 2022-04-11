@@ -2,7 +2,17 @@ import { DropTarget } from 'react-dnd'
 import {getPos} from './Util'
 import {DnDTypes} from './DnDTypes'
 import {CellUnits, DATETIME_FORMAT} from './index'
-import {ViewTypes} from './ViewTypes'
+
+const ViewTypes = {
+    Day: 0,
+    Week: 1,
+    Month: 2,
+    Quarter: 3,
+    Year: 4,
+    Custom: 5,
+    Custom1: 6,
+    Custom2: 7
+}
 
 export default class DnDContext {
     constructor(sources, DecoratedComponent) {
