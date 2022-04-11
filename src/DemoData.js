@@ -139,7 +139,7 @@ const DemoData = {
             title: 'R1 has many tasks 3'
         },
         {
-            id: 03,
+            id: 3,
             start: '2022-03-20 18:30:00',
             end: '2022-03-20 23:30:00',
             resourceId: 'r1',
@@ -270,7 +270,7 @@ const DemoData = {
             groupName: 'Task4'
         },
         {
-            id: 03,
+            id: 3,
             start: '2022-03-28 18:30:00',
             end: '2022-03-28 23:30:00',
             resourceId: 'r6',
@@ -378,7 +378,7 @@ const DemoData = {
             type: 2
         },
         {
-            id: 03,
+            id: 3,
             start: '2022-03-23 18:30:00',
             end: '2022-03-27 23:30:00',
             resourceId: 'r1',
